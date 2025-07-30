@@ -11,6 +11,14 @@ NEMESIS-World is a multi-country, multi-sector, recursive dynamic macroeconomic 
 The current corresponds to the economic component of the model. Regarding the energy and climate module, energy and GHG data have already been collected, along with parameters to characterize power generation technologies. Energy data processing has also been completed. The energy and climate module will be integrated in the next release.
 **This version is still on development**
 
+**Requirement**
+
+*Data collecting* :Python 3.11.9 including the following package: pymrio v0.6.2 / Jupyter Notebook
+
+*Data processing* : Python 3.11.9 including the following packages: pymrio 0.6.2 , Pandas 2.3.1, Numpy 2.3; Iode 1.0.2 / Jupyter Notebook
+
+*Model simulation*: Python 3.11.9 including the following packages: pymrio 0.6.2, Pandas 2.3.1, Numpy 2.3; Iode 1.0.2 / Iode GUI v1.0.2 / Jupyter Notebook / Microsoft Excel or equivalent Workbook
+
 
 **Contact**
 
