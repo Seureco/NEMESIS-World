@@ -8,21 +8,42 @@ NEMESIS-World is a multi-country, multi-sector, recursive dynamic macroeconomic 
 
 **Note of version**
 
-The current corresponds to the economic component of the model. Regarding the energy and climate module, energy and GHG data have already been collected, along with parameters to characterize power generation technologies. Energy data processing has also been completed. The energy and climate module will be integrated in the next release.
-**This version is still on development**
+The version presented here corresponds to the final version (v1.00) of the model developed within [DIAMOND](https://climate-diamond.eu/) research project (Horizon Europe - GA 101081179) including both the economic core and the energy/climate module. 
 
-**Requirement**
+**Requirements**
 
-*Data collecting* :Python 3.11.9 including the following package: pymrio v0.6.2 / Jupyter Notebook
+*Data collecting*: 
+* ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+* Packages: ![pymrio](https://img.shields.io/badge/pymrio-0.6.2-orange) 
+* Tools: ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-Workbook-217346?logo=microsoft-excel&logoColor=white) or equivalent Workbook
 
-*Data processing* : Python 3.11.9 including the following packages: pymrio 0.6.2 , Pandas 2.3.1, Numpy 2.3; Iode 1.0.2 / Jupyter Notebook
+*Data processing*: 
+* ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+* Packages: ![pymrio](https://img.shields.io/badge/pymrio-0.6.2-orange)
+![pandas](https://img.shields.io/badge/pandas-2.2.3-blue?logo=pandas&logoColor=white)
+![numpy](https://img.shields.io/badge/numpy-2.2.6-lightblue?logo=numpy&logoColor=white) 
+![iode](https://img.shields.io/badge/iode-1.0.4-red)  
+* Tools: ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-Workbook-217346?logo=microsoft-excel&logoColor=white) or equivalent Workbook
 
-*Model simulation*: Python 3.11.9 including the following packages: pymrio 0.6.2, Pandas 2.3.1, Numpy 2.3; Iode 1.0.2 / Iode GUI v1.0.2 / Jupyter Notebook / Microsoft Excel or equivalent Workbook
+*Model simulation*: 
+* ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+* Packages: ![pandas](https://img.shields.io/badge/pandas-2.2.3-blue?logo=pandas&logoColor=white)
+![numpy](https://img.shields.io/badge/numpy-2.2.6-lightblue?logo=numpy&logoColor=white) 
+![iode](https://img.shields.io/badge/iode-1.0.4-red)  
+* GUI: ![iode-gui](https://img.shields.io/badge/iode--gui-1.0.4-red)
+* Tools: ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
+
 
 
 **Contact**
 
 Dr. Baptiste Boitier (baptiste.boitier@erasme-team.eu)
 
-[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+| Material | License |
+|----------|---------|
+| Data     | [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| Code     | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)(with Commons Clause for commercial use) |
+
 
