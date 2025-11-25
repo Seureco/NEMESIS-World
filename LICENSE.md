@@ -18,7 +18,7 @@ Apache License 2.0 with Commons Clause
 Full License Text (Apache 2.0 + Commons Clause)
 
 ```
-Copyright [year] [Your Name]
+Copyright 2025, Baptiste Boitier (SEURECO), Pierre Le Mouël (SEURECO), Paul Zagamé (SEURECO), Hayat Mekki (SEURECO)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
