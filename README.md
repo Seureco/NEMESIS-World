@@ -44,6 +44,6 @@ Dr. Baptiste Boitier (baptiste.boitier@erasme-team.eu)
 | Material | License |
 |----------|---------|
 | Data     | [![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
-| Code     | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)(with Commons Clause for commercial use) |
+| Code     | [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)<br>(with Commons Clause for commercial use) |
 
 
