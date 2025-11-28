@@ -15,9 +15,21 @@ release = '1.0.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.autodoc',  
+    'sphinx.ext.autodoc', 
+    'sphinx.ext.mathjax',
     'myst_parser'
 ]
+
+# Options Myst Parser
+myst_enable_extensions = [
+    "amsmath",   # pour \begin{align} etc.
+    "dollarmath" # pour $...$ et $$...$$
+]
+
+# Chemin MathJax (optionnel)
+mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+
+
 
 templates_path = ['_templates']
 exclude_patterns = []

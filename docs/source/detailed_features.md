@@ -27,28 +27,6 @@ On the capital-labour side, the next three stages separate labour demand by qual
 
 :math:`Bdl_i = \propto_{Bld_i} \cdot (Bdl_{up} \cdot TPBdl_{up}) \cdot \beta_{Bld_i} \cdot (P_{Bdl_i} \cdot TPBdl_i)^{-\sigma_{Bdl_{up}}} \cdot \left( \sum_{i}^{N} \beta_{Bld_i} (P_{Bdl_i} \cdot TPBdl_i)^{1 - \sigma_{Bdl_{up}}} \right)^{\frac{\sigma_{Bdl_{up}}}{1 - \sigma_{Bdl_{up}}}}`
 
-\[
-Prodp_{tech}
-=
-\left[
-\propto_{tech}\,
-Prodp_{res}\,
-\left(
-\frac{LCOE_{tech}}{LCOE_{Tot}}
-\right)^{
-\left(
-\emptyset_{tech}
-+
-\partial_{tech}\, e^{\mu_{tech}\,Sh_{tech-1}}
-\right)}
-\right]
-\cdot
-AJ_{elec}
-\]
-
-.. math::
-
-    C_t = a + b~\frac{Y_t}{P_t} + c * C_{t-1}
 
 $$ Bdl_i = \propto_{Bld_i} \cdot (Bdl_{up} \cdot TPBdl_{up}) \cdot \beta_{Bld_i} \cdot (P_{Bdl_i} \cdot TPBdl_i)^{-\sigma_{Bdl_{up}}} \cdot \left( \sum_{i}^{N} \beta_{Bld_i} (P_{Bdl_i} \cdot TPBdl_i)^{1 - \sigma_{Bdl_{up}}} \right)^{\frac{\sigma_{Bdl_{up}}}{1 - \sigma_{Bdl_{up}}}} $$
 
