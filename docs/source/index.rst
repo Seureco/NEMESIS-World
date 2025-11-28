@@ -6,6 +6,7 @@
 NEMESIS-World Documentation
 ===========================
 
+```rst
 .. toctree::
    :maxdepth: 2
 
