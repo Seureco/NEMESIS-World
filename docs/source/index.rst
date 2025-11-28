@@ -12,6 +12,7 @@ NEMESIS-World Documentation
    model_overview
    data_processing
    detailed_features
+   model_manual
    annex
 
 Overview
