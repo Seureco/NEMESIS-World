@@ -36,8 +36,7 @@ PBdl\_{up}
 \right)^{\frac{1}{1 - \sigma\_{\text{Bdl\_{up}}}}}
 $$
 
-
-$$
+```{math}
 PBdl_{up}
 = \propto_{\text{PBld}_{up}}
 \cdot
@@ -46,7 +45,7 @@ PBdl_{up}
 \beta_{\text{Bld}_i} 
 \left( P_{\text{Bdl}_i} \cdot \text{TPBdl}_i \right)^{1 - \sigma_{\text{Bdl}_{up}}}
 \right)^{\frac{1}{1 - \sigma_{\text{Bdl}_{up}}}}
-$$
+```
 
 With $Bdl_i$, the $i^{th}$ element of the bundle of the $N$ elements in $Bdl_{up}$, the upper element of the bundle, $TPBdl_i$, the efficiency factor of the $i^{th}$ bundle, $P_{Bdl_i}$, the price of the $i^{th}$ bundle, the efficiency factor of the bundle $i$, $\beta_{Bld_i}$, the cost share of the $i^{th}$ bundle, $\propto_{Bld_i}$, a scale parameter, and $\sigma_{Bdl_{up}}$, the substitution elasticity.
 
