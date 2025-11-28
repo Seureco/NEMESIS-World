@@ -220,19 +220,20 @@ Where:
 The supply and consumption blocks, through the CES embodied production (section [3.2](#32-supply-side)) and the consumption by purpose functions (section [3.3](#33-households-consumption)), define the energy demand by product. These product-specific energy demands are then allocated to their corresponding supplying sectors.
 The main feature of the energy module lies in modelling the power generation sector. In this sector, 17 distinct technologies are specified (see Table below for an indicative example of the “Rest of EU” region) each characterized by different parameters: investment costs, fixed and variable operation and maintenance costs, fuel costs, and CO₂ emission costs. These parameters are used to calculate the levelized cost of electricity (LCOE) for each technology. The resulting LCOEs are then introduced into a logistic function, which determines the share of each technology in the overall power generation mix (equation below).
 
+
 $$
-\text{Prodp}_{tech}
+Prodp_{tech}
 =
 \left[
 \propto_{tech}\,
-\text{Prodp}_{res}\,
+Prodp_{res}\,
 \left(
-\frac{\text{LCOE}_{tech}}{\text{LCOE}_{Tot}}
+\frac{LCOE_{tech}}{LCOE_{Tot}}
 \right)^{
 \left(
 \emptyset_{tech}
 +
-\partial_{tech}\, e^{\mu_{tech}\,\text{Sh}_{tech-1}}
+\partial_{tech}\, e^{\mu_{tech}\,Sh_{tech-1}}
 \right)}
 \right]
 \cdot
@@ -240,11 +241,11 @@ AJ_{elec}
 $$
 
 With:  
-*   $\text{Prodp}_{tech}$: the production of electricity with the technology $tech$  
-*   $\text{Prodp}_{res}$: electricity production from technologies whose deployment is not constrained. In some scenarios, certain technologies are assumed to follow pre-defined (non-flexible) deployment pathways—nuclear power, for example, whose expansion is often governed by political decisions and national regulatory limits rather than purely economic considerations.  
-*   $\text{LCOE}_{tech}$: the levelized cost of the technology  
-*   $\text{LCOE}_{Tot}$: the levelized cost of all technologies (weighted with the power mix of previous period)  
-*   $\text{Sh}_{tech-1}$: the share of the technology in the power generation mix of the previous period  
+*   $Prodp_{tech}$: the production of electricity with the technology $tech$  
+*   $Prodp_{res}$: electricity production from technologies whose deployment is not constrained. In some scenarios, certain technologies are assumed to follow pre-defined (non-flexible) deployment pathways—nuclear power, for example, whose expansion is often governed by political decisions and national regulatory limits rather than purely economic considerations.  
+*   $LCOE_{tech}$: the levelized cost of the technology  
+*   $LCOE_{Tot}$: the levelized cost of all technologies (weighted with the power mix of previous period)  
+*   $Sh_{tech-1}$: the share of the technology in the power generation mix of the previous period  
 *   $AJ_{elec}$: an adjustment variable ensuring that the sum of all production means equals total demand  
 *   $\propto_{tech}$: scale parameters  
 *   $\emptyset_{tech}$, $\partial_{tech}$, and $\mu_{tech}$: parameters of the logistic functions
