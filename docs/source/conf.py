@@ -16,8 +16,6 @@ release = '1.0.0'
 
 extensions = [
     'sphinx.ext.autodoc', 
-    'sphinx.ext.viewcode',
-    'sphinx.ext.napoleon',
     'sphinx.ext.mathjax',
     'myst_parser'
 ]
@@ -31,6 +29,12 @@ myst_enable_extensions = [
 # Chemin MathJax (optionnel)
 mathjax_path = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
 
+
+# Source files en Markdown
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
 
 
 templates_path = ['_templates']
