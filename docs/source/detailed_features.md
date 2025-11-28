@@ -26,14 +26,14 @@ At the first level, the choice is between intermediate consumption (excluding en
 On the capital-labour side, the next three stages separate labour demand by qualification level: first low-skilled workers, then medium-skilled, and finally high-skilled workers.
 
 $$
-PBdl\_{up}
-= \propto\_{\text{PBld\_{up}}}
+PBdl_{up}
+= \propto_{\text{PBld}_{up}}
 \cdot
 \left(
 \sum_{i}^{N} 
-\beta\_{\text{Bld\_i}} 
-\left( P\_{\text{Bdl\_i}} \cdot \text{TPBdl\_i} \right)^{1 - \sigma\_{\text{Bdl\_{up}}}}
-\right)^{\frac{1}{1 - \sigma\_{\text{Bdl\_{up}}}}}
+\beta_{\text{Bld}_i} 
+\left( P_{\text{Bdl}_i} \cdot \text{TPBdl}_i \right)^{1 - \sigma_{\text{Bdl}_{up}}}
+\right)^{\frac{1}{1 - \sigma_{\text{Bdl}_{up}}}}
 $$
 
 ```{math}
