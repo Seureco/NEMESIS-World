@@ -220,7 +220,6 @@ Where:
 The supply and consumption blocks, through the CES embodied production (section [3.2](#32-supply-side)) and the consumption by purpose functions (section [3.3](#33-households-consumption)), define the energy demand by product. These product-specific energy demands are then allocated to their corresponding supplying sectors.
 The main feature of the energy module lies in modelling the power generation sector. In this sector, 17 distinct technologies are specified (see Table below for an indicative example of the “Rest of EU” region) each characterized by different parameters: investment costs, fixed and variable operation and maintenance costs, fuel costs, and CO₂ emission costs. These parameters are used to calculate the levelized cost of electricity (LCOE) for each technology. The resulting LCOEs are then introduced into a logistic function, which determines the share of each technology in the overall power generation mix (equation below).
 
-
 $$
 Prodp_{tech}
 =
@@ -229,10 +228,7 @@ Prodp_{tech}
 Prodp_{res}\,
 \left(
 \frac{LCOE_{tech}}{LCOE_{Tot}}
-\right)^{
-\left(
-\emptyset_{tech}
-+
+\right)^{\left(\emptyset_{tech}+
 \partial_{tech}\, e^{\mu_{tech}\,Sh_{tech-1}}
 \right)}
 \right]
