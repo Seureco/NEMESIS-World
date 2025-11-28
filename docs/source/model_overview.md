@@ -1,10 +1,10 @@
-# Model Overview
+# 1. Model Overview
 
-## 2.1 Note of version
+## 1.1 Note of version
 
 The version presented here corresponds to the first final version (v1.0.0) of the model including the economic core as well as the energy module. 
 
-## 2.2 Geographical coverage
+## 1.2 Geographical coverage
 
 The geographical coverage of the NEMESIS-World model includes 22 different regions, 16 of which represent countries that form the largest economies of the World. In 2022, those 16 countries represented 75% of the World GDP, 55% of the population [International Monetary Fund (2025)](https://www.imf.org/en/publications/weo/issues/2025/04/22/world-economic-outlook-april-2025) and 70% of global GHG emissions [Crippa, M. et al. (2024)](https://data.europa.eu/doi/10.2760/4002897). The remaining regions are grouped in 6 different geographical zones. Such regional detail, covering major economies, is important when assessing decarbonisation policies that are mostly country or region-specific whereas, six different geographical area for the non-disaggregated countries allows the model to be able to map with general IPCC standardised reporting regions. The 22 regions covered are:
 *   Africa: all African countries (named **RoW Africa, WF**)
@@ -40,7 +40,7 @@ The geographical coverage of the NEMESIS-World model includes 22 different regio
 |                   | RoW Europe (WE)             | Norway, Armenia, Belarus, Ukraine, Moldova, Albania, Switzerland, Iceland, Georgia, Bosnia and Herzegovina, North Macedonia, Serbia, Montenegro, Kosovo, Andorra, Azerbaijan, Liechtenstein, Monaco, San Marino |
 
 
-## 2.3 Sectoral coverage
+## 1.3 Sectoral coverage
 
 The model represents 59 different economic activities for each region modelled. This high level of sectoral detail allows the model to provide detailed economic impact assessments. Particular emphasis has been placed on disaggregating sectors impacting or be impacted by climate change mitigation options. 
 The economic activities include the following disaggregated sectors:
@@ -117,9 +117,9 @@ The economic activities include the following disaggregated sectors:
 | 59 | Other services activities |
 
 
-## 2.4 Other core dimensions
+## 1.4 Other core dimensions
 
-### 2.4.1 Labour market
+### 1.4.1 Labour market
 
 The model distinguishes three different levels of qualification of the workforce for each economic activity in each region, based on the standardisation of the International Standard Classification of Education (ISCED).
 
@@ -135,7 +135,7 @@ The model distinguishes three different levels of qualification of the workforce
 | High-qualified | 7 | Master’s or equivalent level |
 | High-qualified | 8 | Doctoral or equivalent level |
 
-### 2.4.2 Energy products
+### 1.4.2 Energy products
 
 Beyond the aggregated demand reflected in monetary units, the model also quantifies the demand for twelve different energy commodities.
 
@@ -146,7 +146,7 @@ Beyond the aggregated demand reflected in monetary units, the model also quantif
 | **Other energy commodities** | Geothermal<br>Solar thermal<br>Wastes (50%)                                             | — |
 
 
-### 2.4.3 Power generation technologies
+### 1.4.3 Power generation technologies
 
 The sector “Production of electricity” is detailed to cover numerous power technologies.
 
@@ -169,7 +169,7 @@ The sector “Production of electricity” is detailed to cover numerous power t
 |                    | Non-renewable wastes   | — |
 
 
-### GHG emissions
+### 1.4.4 GHG emissions
 
 The model also calculates the following GHG emissions: CO2, N2O, CH4, F-gases.
 
