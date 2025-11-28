@@ -25,27 +25,16 @@ Once the level of domestic production is determined, the sector gradually define
 At the first level, the choice is between intermediate consumption (excluding energy) and a combined capital-labour-energy bundle. In the second step, energy is separated from this bundle. The energy demand is then split into electricity and other energy sources, and finally into specific energy types within the non-electricity category.
 On the capital-labour side, the next three stages separate labour demand by qualification level: first low-skilled workers, then medium-skilled, and finally high-skilled workers.
 
-
-Inline : $E = mc^2$
-
-Bloc :
 $$
-\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+PBdl\_{up}
+= \propto\_{\text{PBld\_{up}}}
+\cdot
+\left(
+\sum_{i}^{N} 
+\beta\_{\text{Bld\_i}} 
+\left( P\_{\text{Bdl\_i}} \cdot \text{TPBdl\_i} \right)^{1 - \sigma\_{\text{Bdl\_{up}}}}
+\right)^{\frac{1}{1 - \sigma\_{\text{Bdl\_{up}}}}}
 $$
-
-Align :
-```{math}
-\begin{align}
-a^2 + b^2 &= c^2 \\
-e^{i\pi} + 1 &= 0
-\end{align}
-
-
-```{math}
-\begin{align}
-a^2 + b^2 &= c^2 \\
-e^{i\pi} + 1 &= 0
-\end{align}
 
 
 $$
