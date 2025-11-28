@@ -8,8 +8,8 @@ NEMESIS-World Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
+   :caption: 
+   
    general_presentation
    model_overview
    data_processing

@@ -14,6 +14,32 @@ The geographical coverage of the NEMESIS-World model includes 22 different regio
 
 !["Map of NEMESIS World geographical coverage"](figs/NeW_Map_regional_coverage.png)
 
+| Région            | Pays / Code                 | Liste des pays |
+|-------------------|-----------------------------|-----------------|
+| Africa            | RoW Africa (WF)             | Algeria, Angola, Benin, Botswana, Burkina Faso, Burundi, Cabo Verde, Cameroon, Central African Republic, Chad, Comoros, Congo, Côte d’Ivoire, Djibouti, Egypt, Equatorial Guinea, Eritrea, Eswatini, Ethiopia, Gabon, Gambia, Ghana, Guinea, Guinea-Bissau, Kenya, Lesotho, Liberia, Libya, Madagascar, Malawi, Mali, Mauritania, Mauritius, Morocco, Mozambique, Namibia, Niger, Nigeria, Rwanda, Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Somalia, South Africa, South Sudan, Sudan, Tanzania, Togo, Tunisia, Uganda, Zambia, Zimbabwe, Western Sahara |
+| America           | Canada (CA)                 | Canada |
+|                   | Brazil (BR)                 | Brazil |
+|                   | Mexico (MX)                 | Mexico |
+|                   | USA (US)                    | United States of America |
+|                   | RoW America (WL)            | Argentina, Chile, Haiti, Dominican Rep., Bahamas, Falkland Is., Greenland, Uruguay, Bolivia, Peru, Colombia, Panama, Costa Rica, Nicaragua, Honduras, El Salvador, Guatemala, Belize, Venezuela, Guyana, Suriname, Ecuador, Puerto Rico, Jamaica, Cuba, Paraguay, Trinidad and Tobago, Antigua and Barbuda, Barbados, Dominica, Grenada, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines |
+| Asia & Pacific    | Australia (AU)              | Australia |
+|                   | China (CN)                  | China |
+|                   | India (IN)                  | India |
+|                   | Indonesia (ID)              | Indonesia |
+|                   | Japan (JP)                  | Japan |
+|                   | South Korea (KR)            | South Korea |
+|                   | Russia (RU)                 | Russia |
+|                   | RoW Asia & Pacific (WA)     | Kazakhstan, Uzbekistan, Turkmenistan, Kyrgyzstan, Tajikistan, Afghanistan, Bangladesh, Bhutan, Nepal, Pakistan, Sri Lanka, Maldives, Timor-Leste, Brunei, Cambodia, Thailand, Laos, Myanmar, Vietnam, Philippines, Malaysia, North Korea, Mongolia, Azerbaijan, Papua New Guinea, Vanuatu, Solomon Is., New Caledonia, New Zealand, Fr. S. Antarctic Lands, Fiji, Tonga, Samoa, Micronesia, Palau, Tuvalu, Kiribati, Nauru, Singapore |
+|                   | RoW Middle East (WM)        | Lebanon, Palestine, Jordan, United Arab Emirates, Qatar, Kuwait, Iraq, Oman, Iran, Israel, Syria, Turkey, Yemen, Saudi Arabia, N. Cyprus, Bahrain |
+| Europe            | France (FR)                 | France |
+|                   | Germany (DE)                | Germany |
+|                   | Italy (IT)                  | Italy |
+|                   | Spain (ES)                  | Spain |
+|                   | The United-Kingdom (UK)     | United-Kingdom |
+|                   | Rest of EU (OE)             | Sweden, Poland, Austria, Hungary, Romania, Lithuania, Latvia, Estonia, Bulgaria, Greece, Croatia, Luxembourg, Belgium, Netherlands, Portugal, Ireland, Denmark, Slovenia, Finland, Slovakia, Czechia, Cyprus, Malta |
+|                   | RoW Europe (WE)             | Norway, Armenia, Belarus, Ukraine, Moldova, Albania, Switzerland, Iceland, Georgia, Bosnia and Herzegovina, North Macedonia, Serbia, Montenegro, Kosovo, Andorra, Azerbaijan, Liechtenstein, Monaco, San Marino |
+
+
 ## 2.3 Sectoral coverage
 
 The model represents 59 different economic activities for each region modelled. This high level of sectoral detail allows the model to provide detailed economic impact assessments. Particular emphasis has been placed on disaggregating sectors impacting or be impacted by climate change mitigation options. 
