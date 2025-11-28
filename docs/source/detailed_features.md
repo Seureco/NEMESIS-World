@@ -36,16 +36,6 @@ PBdl_{up}
 \right)^{\frac{1}{1 - \sigma_{\text{Bdl}_{up}}}}
 $$
 
-```{math}
-PBdl_{up}
-= \propto_{\text{PBld}_{up}}
-\cdot
-\left(
-\sum_{i}^{N} 
-\beta_{\text{Bld}_i} 
-\left( P_{\text{Bdl}_i} \cdot \text{TPBdl}_i \right)^{1 - \sigma_{\text{Bdl}_{up}}}
-\right)^{\frac{1}{1 - \sigma_{\text{Bdl}_{up}}}}
-```
 
 With $Bdl_i$, the $i^{th}$ element of the bundle of the $N$ elements in $Bdl_{up}$, the upper element of the bundle, $TPBdl_i$, the efficiency factor of the $i^{th}$ bundle, $P_{Bdl_i}$, the price of the $i^{th}$ bundle, the efficiency factor of the bundle $i$, $\beta_{Bld_i}$, the cost share of the $i^{th}$ bundle, $\propto_{Bld_i}$, a scale parameter, and $\sigma_{Bdl_{up}}$, the substitution elasticity.
 
@@ -64,9 +54,10 @@ The trade-off between consumption and savings depends on the real disposable inc
 This relationship is modelled using an Error Correction Model (ECM) following [Engle and Granger (1987)](), which captures both short-term and long-term dynamics. Shocks can have different impacts in the short run versus the long run, but over time, all shocks tend to converge towards the long-term relationship.
 
 The long-term relationship is specified as follows:
+
 $$
 \ln(c) 
-= \beta_r 
+= \beta_r
 + \beta_{rev} \cdot \ln(rev) 
 + \beta_{yg} \cdot Sh_{young} 
 + \beta_{old} \cdot Sh_{old} 
@@ -76,6 +67,7 @@ $$
 $$
 
 The short-term dynamic is specified as:
+
 $$
 d\ln(c) 
 = \alpha_r 
@@ -117,11 +109,13 @@ The “*Basics*” bundle is further disaggregated into three sub-nodes: “*Ess
 On the “*Transportation*” side, the next level distinguishes between “*Private Cars*”, “*Other Inland Transport*”, “*Air Transport*”, “*Water Transport*” and “*Other Transport*”. “*Private Cars*” are then split into “*Internal Combustion Engine Vehicles*”, “*Plug-in Hybrid Electric Vehicles*”, and “*Battery Electric Vehicles*”, each of which is further divided into vehicle purchase and the respective fuel consumption.
 For the “*Rest*” category (i.e., the remaining goods and services not yet allocated), the next step distinguishes between “*Non-Market Services*” and a residual “*Rest*” node. “*Non-Market Services*” are then broken down into “*Education*”, “*Health*”, and “*Other Non-Market Services*”. The “*Rest*” bundle is split into “*Leisure*”, “*Equipment*”, and a residual “*Rest*” category. Finally, “*Leisure*” is further disaggregated into “*Hotels and Restaurants*”, “*Information and Communication*”, and “*Other Leisure*” services.
 All final nodes in the consumption tree are linked to the corresponding economic sectors, representing the demand addressed by households to each sector.
+
 $$
 Cons_{node_i} 
 = \propto_{node_i} \cdot Cons_{node_{up}} 
 \cdot \left( \frac{P_{node_{up}}}{P_{node_i}} \right)^{\sigma_{node_{up}}}
 $$
+
 $$
 P_{node_{up}} 
 = \propto_{P_{node_i}} \cdot 
@@ -143,9 +137,11 @@ The substitution elasticities in the nested CES household consumption function r
 ## 3.4 International trade
 
 International trade is integrated in the nested CES production functions, following the Armington approach ([Armington, 1969](https://doi.org/10.2307/3866403)). Trade at the sectoral level is represented in two steps. First, the representative firms in each sector decide how to satisfy demand, choosing between domestic production and imports. The Armington framework allows for a combination of both options (see equations below).
+
 $$
 DOMQ = \propto_{DOMQ} \cdot ADDDTOTQ \cdot \beta_{DMOQ} \cdot \left( \frac{PPROD}{PADDDTOT} \right)^{-\sigma_{imp}}
 $$
+
 $$
 IMPQ = \propto_{IMPQ} \cdot ADDDTOTQ \cdot \beta_{IMPQ} \cdot \left( \frac{PIMP}{PADDDTOT} \right)^{-\sigma_{imp}}
 $$
@@ -167,6 +163,7 @@ $$
 PIMP = \propto_{PIMP} \cdot 
 \left( \sum_{r \neq d}^{R} \beta_{IMPQ_{bilat}}^r \left( PIMP_{bilat}^r \cdot iceb^r \right)^{1-\sigma_{bilat}} \right)
 $$
+
 $$
 IMPQ_{bilat}^r = \propto_{IMPQ_{bilat}} \cdot IMPQ \cdot  \beta_{IMPQ_{bilat}}^r 
 \cdot \left( \frac{PIMP_{bilat}^r \cdot iceb^r}{PIMP} \right)^{-\sigma_{bilat}}
